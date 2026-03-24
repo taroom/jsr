@@ -197,6 +197,11 @@ button {
   box-shadow: 0 12px 24px rgba(13, 63, 40, 0.1);
 }
 
+.note-card--bookmarked {
+  border-color: rgba(30, 111, 74, 0.45);
+  box-shadow: 0 12px 24px rgba(30, 111, 74, 0.14);
+}
+
 .note-card h3 {
   margin: 0;
   font-family: "Merriweather", serif;
@@ -211,7 +216,8 @@ button {
 
 .note-card__top,
 .tag-row,
-.detail-head {
+.detail-head,
+.detail-actions {
   display: flex;
   justify-content: space-between;
   gap: 10px;
@@ -236,6 +242,22 @@ button {
   background: linear-gradient(135deg, #3a9568, #1e6f4a);
   color: #f7fff9;
   font-weight: 600;
+}
+
+.bookmark-toggle {
+  border: 1px solid rgba(30, 111, 74, 0.35);
+  border-radius: 999px;
+  padding: 7px 12px;
+  background: #f0f8f2;
+  color: #1e6f4a;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.bookmark-toggle--active {
+  border-color: transparent;
+  background: linear-gradient(135deg, #3a9568, #1e6f4a);
+  color: #f7fff9;
 }
 
 .card-action {
@@ -377,7 +399,8 @@ button {
   }
 
   .section-head,
-  .detail-head {
+  .detail-head,
+  .detail-actions {
     flex-direction: column;
     align-items: stretch;
   }

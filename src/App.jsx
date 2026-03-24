@@ -1,8 +1,24 @@
 import { startTransition, useDeferredValue, useEffect, useMemo, useState } from "react";
 
+const STORAGE_KEY = "jsr-bookmarks-v1";
+
 function readHashSlug() {
     const match = window.location.hash.match(/^#\/jsr\/([a-z0-9-]+)/i);
     return match ? match[1] : "";
+}
+
+function loadBookmarks() {
+    try {
+        const saved = window.localStorage.getItem(STORAGE_KEY);
+        if (!saved) {
+            return {};
+        }
+
+        const parsed = JSON.parse(saved);
+        return typeof parsed === "object" && parsed !== null ? parsed : {};
+    } catch {
+        return {};
+    }
 }
 
 function App() {
@@ -11,6 +27,7 @@ function App() {
     const [query, setQuery] = useState("");
     const [activeSlug, setActiveSlug] = useState(readHashSlug());
     const [detailState, setDetailState] = useState({ status: "idle", data: null, error: "" });
+    const [bookmarks, setBookmarks] = useState(loadBookmarks);
     const deferredQuery = useDeferredValue(query);
 
     useEffect(() => {
@@ -88,21 +105,31 @@ function App() {
         return () => controller.abort();
     }, [activeSlug]);
 
+    useEffect(() => {
+        window.localStorage.setItem(STORAGE_KEY, JSON.stringify(bookmarks));
+    }, [bookmarks]);
+
+    const bookmarkCount = useMemo(() => Object.keys(bookmarks).length, [bookmarks]);
+
     const filteredCatalog = useMemo(() => {
         const normalizedQuery = deferredQuery.trim().toLowerCase();
 
-        if (!normalizedQuery) {
-            return catalog;
-        }
+        const matchingItems = !normalizedQuery
+            ? catalog
+            : catalog.filter((item) => {
+                const haystack = [item.title, item.focus, item.tagline, ...(item.tags ?? [])]
+                    .join(" ")
+                    .toLowerCase();
 
-        return catalog.filter((item) => {
-            const haystack = [item.title, item.focus, item.tagline, ...(item.tags ?? [])]
-                .join(" ")
-                .toLowerCase();
+                return haystack.includes(normalizedQuery);
+            });
 
-            return haystack.includes(normalizedQuery);
+        return [...matchingItems].sort((a, b) => {
+            const aMarked = bookmarks[a.slug] ? 1 : 0;
+            const bMarked = bookmarks[b.slug] ? 1 : 0;
+            return bMarked - aMarked;
         });
-    }, [catalog, deferredQuery]);
+    }, [catalog, deferredQuery, bookmarks]);
 
     function openNote(slug) {
         window.location.hash = `#/jsr/${slug}`;
@@ -113,6 +140,21 @@ function App() {
         url.hash = "";
         window.history.pushState({}, "", url);
         setActiveSlug("");
+    }
+
+    function toggleBookmark(slug) {
+        setBookmarks((current) => {
+            if (current[slug]) {
+                const next = { ...current };
+                delete next[slug];
+                return next;
+            }
+
+            return {
+                ...current,
+                [slug]: true,
+            };
+        });
     }
 
     return (
@@ -134,8 +176,8 @@ function App() {
                             <span>Total catatan JSR</span>
                         </article>
                         <article>
-                            <strong>{activeSlug ? "1" : "0"}</strong>
-                            <span>Catatan sedang dibuka</span>
+                            <strong>{bookmarkCount}</strong>
+                            <span>Catatan dibookmark</span>
                         </article>
                     </div>
                 </section>
@@ -167,25 +209,36 @@ function App() {
                         {catalogStatus === "success" ? (
                             filteredCatalog.length ? (
                                 <div className="catalog-grid">
-                                    {filteredCatalog.map((item) => (
-                                        <article key={item.slug} className="note-card">
-                                            <div className="note-card__top">
-                                                <span className="chip">{item.focus}</span>
-                                            </div>
-                                            <h3>{item.title}</h3>
-                                            <p>{item.tagline}</p>
-                                            <div className="tag-row">
-                                                {item.tags.map((tag) => (
-                                                    <span key={tag} className="tag-row__item">
-                                                        {tag}
-                                                    </span>
-                                                ))}
-                                            </div>
-                                            <button className="card-action" onClick={() => openNote(item.slug)}>
-                                                Buka catatan
-                                            </button>
-                                        </article>
-                                    ))}
+                                    {filteredCatalog.map((item) => {
+                                        const isBookmarked = Boolean(bookmarks[item.slug]);
+
+                                        return (
+                                            <article key={item.slug} className={`note-card ${isBookmarked ? "note-card--bookmarked" : ""}`}>
+                                                <div className="note-card__top">
+                                                    <span className="chip">{item.focus}</span>
+                                                    <button
+                                                        className={`bookmark-toggle ${isBookmarked ? "bookmark-toggle--active" : ""}`}
+                                                        onClick={() => toggleBookmark(item.slug)}
+                                                        aria-label={isBookmarked ? "Hapus bookmark" : "Simpan bookmark"}
+                                                    >
+                                                        {isBookmarked ? "Bookmarked" : "Bookmark"}
+                                                    </button>
+                                                </div>
+                                                <h3>{item.title}</h3>
+                                                <p>{item.tagline}</p>
+                                                <div className="tag-row">
+                                                    {item.tags.map((tag) => (
+                                                        <span key={tag} className="tag-row__item">
+                                                            {tag}
+                                                        </span>
+                                                    ))}
+                                                </div>
+                                                <button className="card-action" onClick={() => openNote(item.slug)}>
+                                                    Buka catatan
+                                                </button>
+                                            </article>
+                                        );
+                                    })}
                                 </div>
                             ) : (
                                 <div className="empty-state">Tidak ada catatan yang cocok dengan pencarian Anda.</div>
@@ -200,7 +253,7 @@ function App() {
                                 <h2>Pilih salah satu catatan JSR</h2>
                                 <p>
                                     Detail catatan akan dimuat dari JSON secara asynchronous. Klik salah satu kartu pada daftar
-                                    untuk melihat bahan, cara membuat, dan manfaatnya.
+                                    untuk melihat bahan, cara membuat, manfaat, lalu simpan sebagai bookmark jika ingin.
                                 </p>
                             </div>
                         ) : null}
@@ -229,9 +282,17 @@ function App() {
                             <article className="detail-content">
                                 <div className="detail-head">
                                     <h2>{detailState.data.title}</h2>
-                                    <button className="close-button" onClick={closePanel} aria-label="Tutup panel">
-                                        Tutup
-                                    </button>
+                                    <div className="detail-actions">
+                                        <button
+                                            className={`bookmark-toggle ${bookmarks[detailState.data.slug] ? "bookmark-toggle--active" : ""}`}
+                                            onClick={() => toggleBookmark(detailState.data.slug)}
+                                        >
+                                            {bookmarks[detailState.data.slug] ? "Bookmarked" : "Bookmark"}
+                                        </button>
+                                        <button className="close-button" onClick={closePanel} aria-label="Tutup panel">
+                                            Tutup
+                                        </button>
+                                    </div>
                                 </div>
 
                                 <p className="detail-description">{detailState.data.description}</p>
