@@ -1,0 +1,30 @@
+[
+  {
+    "slug": "ultimate-jsr",
+    "title": "Resep Ultimate JSR Dr Zaidul Akbar",
+    "tagline": "Minuman herbal harian berbasis kunyit, jahe, jeruk nipis, dan madu.",
+    "focus": "Stamina Harian",
+    "tags": ["Imun", "Pencernaan", "Detoks", "Anti Inflamasi"]
+  },
+  {
+    "slug": "kunyit-asam-hangat",
+    "title": "Kunyit Asam Hangat",
+    "tagline": "Formula sederhana kunyit, asam jawa, dan madu untuk bantu metabolisme.",
+    "focus": "Metabolisme",
+    "tags": ["Herbal", "Haid", "Pencernaan"]
+  },
+  {
+    "slug": "jahe-serai-lemon",
+    "title": "Jahe Serai Lemon",
+    "tagline": "Minuman hangat dengan rasa segar untuk bantu jaga daya tahan tubuh.",
+    "focus": "Imunitas",
+    "tags": ["Flu", "Hangat", "Antioksidan"]
+  },
+  {
+    "slug": "habbatussauda-madu",
+    "title": "Habbatussauda Madu",
+    "tagline": "Campuran biji habbatussauda dan madu sebagai suplemen natural.",
+    "focus": "Pemulihan",
+    "tags": ["Sunnah", "Energi", "Pernapasan"]
+  }
+]
