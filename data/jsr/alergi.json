@@ -1,0 +1,21 @@
+{
+  "slug": "alergi",
+  "title": "Resep Alergi JSR Dr Zaidul Akbar",
+  "description": "Data diekstrak otomatis dari referensi 147 kumpulan resep JSR.",
+  "bahan": [
+    "1 batang kayumanis",
+    "3-5 biji cengkeh",
+    "3 biji bunga lawang",
+    "200-300 ml air panas",
+    "Madu secukupnya"
+  ],
+  "caraMembuat": [
+    "Seduh semua bahan dengan air panas, kecuali madu.",
+    "Setelah hangat, tambahkan madu",
+    "Minum selagi hangat"
+  ],
+  "manfaat": [
+    "Manfaat tidak tertulis eksplisit pada bagian ini di sumber."
+  ],
+  "source": "https://dikaraherbal.com/147-kumpulan-resep-dr-zaidul-akbar/"
+}

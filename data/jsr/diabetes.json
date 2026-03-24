@@ -1,0 +1,18 @@
+{
+  "slug": "diabetes",
+  "title": "Resep Diabetes JSR Dr Zaidul Akbar",
+  "description": "Data diekstrak otomatis dari referensi 147 kumpulan resep JSR.",
+  "bahan": [
+    "1 sdt kayumanis",
+    "1 sdt madu",
+    "250 ml air panas"
+  ],
+  "caraMembuat": [
+    "Seduh kayumanis dengan air panas, tunggu hangat.",
+    "Tambahkan madu"
+  ],
+  "manfaat": [
+    "Manfaat tidak tertulis eksplisit pada bagian ini di sumber."
+  ],
+  "source": "https://dikaraherbal.com/147-kumpulan-resep-dr-zaidul-akbar/"
+}

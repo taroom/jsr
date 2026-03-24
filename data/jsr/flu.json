@@ -1,0 +1,23 @@
+{
+  "slug": "flu",
+  "title": "Resep Flu JSR Dr Zaidul Akbar",
+  "description": "Data diekstrak otomatis dari referensi 147 kumpulan resep JSR.",
+  "bahan": [
+    "1 ruas jahe",
+    "1 batang kayumanis",
+    "3 buah cengkeh",
+    "2 sdm madu",
+    "½ sdt beepolen",
+    "200-300 Air"
+  ],
+  "caraMembuat": [
+    "Jahe di geprek / potong koin /parut",
+    "Tambahkan kayumanis dan cengkeh",
+    "Diamkan hingga hangat",
+    "Tambahkan madu dan beepolen"
+  ],
+  "manfaat": [
+    "Manfaat tidak tertulis eksplisit pada bagian ini di sumber."
+  ],
+  "source": "https://dikaraherbal.com/147-kumpulan-resep-dr-zaidul-akbar/"
+}
