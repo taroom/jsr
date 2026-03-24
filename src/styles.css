@@ -19,8 +19,16 @@ body {
   min-width: 320px;
   color: var(--ink);
   background:
-    radial-gradient(circle at 10% 8%, rgba(76, 154, 106, 0.14), transparent 25%),
-    radial-gradient(circle at 90% 12%, rgba(17, 109, 71, 0.12), transparent 28%),
+    radial-gradient(
+      circle at 10% 8%,
+      rgba(76, 154, 106, 0.14),
+      transparent 25%
+    ),
+    radial-gradient(
+      circle at 90% 12%,
+      rgba(17, 109, 71, 0.12),
+      transparent 28%
+    ),
     linear-gradient(180deg, var(--bg) 0%, var(--bg-accent) 100%);
 }
 
@@ -179,7 +187,9 @@ button {
   padding: 16px;
   display: grid;
   gap: 12px;
-  transition: transform 160ms ease, box-shadow 160ms ease;
+  transition:
+    transform 160ms ease,
+    box-shadow 160ms ease;
 }
 
 .note-card:hover {
