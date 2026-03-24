@@ -1,30 +1,1031 @@
 [
   {
-    "slug": "ultimate-jsr",
+    "slug": "ultimate",
     "title": "Resep Ultimate JSR Dr Zaidul Akbar",
-    "tagline": "Minuman herbal harian berbasis kunyit, jahe, jeruk nipis, dan madu.",
-    "focus": "Stamina Harian",
-    "tags": ["Imun", "Pencernaan", "Detoks", "Anti Inflamasi"]
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Catatan Herbal",
+    "tags": ["JSR", "Herbal"]
   },
   {
-    "slug": "kunyit-asam-hangat",
-    "title": "Kunyit Asam Hangat",
-    "tagline": "Formula sederhana kunyit, asam jawa, dan madu untuk bantu metabolisme.",
-    "focus": "Metabolisme",
-    "tags": ["Herbal", "Haid", "Pencernaan"]
+    "slug": "detox-rahim",
+    "title": "Resep Detox Rahim JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Detoks",
+    "tags": ["JSR", "Herbal"]
   },
   {
-    "slug": "jahe-serai-lemon",
-    "title": "Jahe Serai Lemon",
-    "tagline": "Minuman hangat dengan rasa segar untuk bantu jaga daya tahan tubuh.",
-    "focus": "Imunitas",
-    "tags": ["Flu", "Hangat", "Antioksidan"]
+    "slug": "detox-reproduksi",
+    "title": "Resep Detox Reproduksi JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Detoks",
+    "tags": ["JSR", "Herbal"]
   },
   {
-    "slug": "habbatussauda-madu",
-    "title": "Habbatussauda Madu",
-    "tagline": "Campuran biji habbatussauda dan madu sebagai suplemen natural.",
-    "focus": "Pemulihan",
-    "tags": ["Sunnah", "Energi", "Pernapasan"]
+    "slug": "kista",
+    "title": "Resep Kista JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Catatan Herbal",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "keputihan",
+    "title": "Resep Keputihan JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Catatan Herbal",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "haid-berlebihan",
+    "title": "Resep Haid Berlebihan JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Catatan Herbal",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "memperlancar-haid",
+    "title": "Resep Memperlancar Haid JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Catatan Herbal",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "tuba-falopi",
+    "title": "Resep Tuba Falopi JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Catatan Herbal",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "prostat-vitalitas-suami-dan-promil-suami",
+    "title": "Resep Prostat Vitalitas Suami dan Promil Suami JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Reproduksi",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "memperbanyak-sperma",
+    "title": "Resep Memperbanyak Sperma JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Catatan Herbal",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "batuk-pilek-asma",
+    "title": "Resep Batuk / Pilek / Asma JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Pernapasan",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "alergi",
+    "title": "Resep Alergi JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Catatan Herbal",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "sakit-kepala-pusing",
+    "title": "Resep Sakit Kepala / Pusing JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Catatan Herbal",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "vertigo",
+    "title": "Resep Vertigo JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Catatan Herbal",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "flu",
+    "title": "Resep Flu JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Pernapasan",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "anti-flu",
+    "title": "Resep Anti Flu JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Pernapasan",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "migrain",
+    "title": "Resep Migrain JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Catatan Herbal",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "sakit-kepala",
+    "title": "Resep Sakit Kepala JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Catatan Herbal",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "anti-radang",
+    "title": "Resep Anti Radang JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Catatan Herbal",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "teh-anti-pilek",
+    "title": "Resep Teh Anti Pilek JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Catatan Herbal",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "batuk-kering-dewasa",
+    "title": "Resep Batuk Kering Dewasa JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Pernapasan",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "batuk-kering",
+    "title": "Resep Batuk Kering JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Pernapasan",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "batuk-berdahak",
+    "title": "Resep Batuk Berdahak JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Pernapasan",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "batuk-pilek-bayi",
+    "title": "Resep Batuk Pilek Bayi JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Pernapasan",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "menghilangkan-lendir-mukus",
+    "title": "Resep Menghilangkan Lendir / Mukus JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Catatan Herbal",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "demam",
+    "title": "Resep Demam JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Catatan Herbal",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "masuk-angin",
+    "title": "Resep Masuk Angin JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Catatan Herbal",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "tipes-typhus",
+    "title": "Resep Tipes / Typhus JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Catatan Herbal",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "demam-berdarah",
+    "title": "Resep Demam Berdarah JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Sirkulasi",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "sinusitis",
+    "title": "Resep Sinusitis JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Catatan Herbal",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "asam-lambung",
+    "title": "Resep Asam Lambung JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Catatan Herbal",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "maag",
+    "title": "Resep Maag JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Pencernaan",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "masalah-pencernaan-maag",
+    "title": "Resep Masalah Pencernaan Maag JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Pencernaan",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "gerd",
+    "title": "Resep Gerd JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Pencernaan",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "usus-bocor-leaky-gut",
+    "title": "Resep Usus Bocor ( Leaky Gut ) JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Pencernaan",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "detox-usus",
+    "title": "Resep Detox Usus JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Pencernaan",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "membersihkan-usus-besar",
+    "title": "Resep Membersihkan Usus Besar JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Pencernaan",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "pelancar-darah",
+    "title": "Resep Pelancar Darah JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Sirkulasi",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "diabetes",
+    "title": "Resep Diabetes JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Catatan Herbal",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "batu-empedu",
+    "title": "Resep Batu Empedu JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Catatan Herbal",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "batu-empedu-2",
+    "title": "Resep Batu Empedu 2 JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Catatan Herbal",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "memperkuat-ginjal",
+    "title": "Resep Memperkuat Ginjal JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Detoks",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "pengapuran-nyeri-tulang",
+    "title": "Resep Pengapuran / Nyeri Tulang JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Catatan Herbal",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "penurun-kolesterol",
+    "title": "Resep Penurun Kolesterol JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Sirkulasi",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "isk-infeksi-saluran-kencing",
+    "title": "Resep ISK Infeksi Saluran Kencing JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Catatan Herbal",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "anti-radikal-bebas",
+    "title": "Resep Anti Radikal Bebas JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Catatan Herbal",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "anti-radikal-bebas-2",
+    "title": "Resep Anti Radikal Bebas 2 JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Catatan Herbal",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "hiperteroid",
+    "title": "Resep Hiperteroid JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Catatan Herbal",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "hipotiroid",
+    "title": "Resep Hipotiroid JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Catatan Herbal",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "diare",
+    "title": "Resep Diare JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Catatan Herbal",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "insomnia",
+    "title": "Resep Insomnia JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Catatan Herbal",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "demam-anak-dibawah-1-tahun",
+    "title": "Resep Demam Anak Dibawah 1 Tahun JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Catatan Herbal",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "anti-mabuk-perjalanan",
+    "title": "Resep Anti Mabuk Perjalanan JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Catatan Herbal",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "peningkat-trombosit",
+    "title": "Resep Peningkat Trombosit JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Catatan Herbal",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "thalasemia",
+    "title": "Resep Thalasemia JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Catatan Herbal",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "anti-mual-mabuk-diare-kembung",
+    "title": "Resep Anti Mual / Mabuk / Diare / Kembung JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Catatan Herbal",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "hipertensi-darah-tinggi",
+    "title": "Resep Hipertensi Darah Tinggi JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Sirkulasi",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "tekanan-darah-tinggi",
+    "title": "Resep Tekanan Darah Tinggi JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Sirkulasi",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "asam-urat-tinggi",
+    "title": "Resep Asam Urat Tinggi JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Catatan Herbal",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "kekurangan-kalsium",
+    "title": "Resep Kekurangan Kalsium JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Catatan Herbal",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "anti-pegal-linu",
+    "title": "Resep Anti Pegal Linu JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Catatan Herbal",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "menghadang-virus-perubahan-cuaca",
+    "title": "Resep Menghadang Virus / Perubahan Cuaca JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Catatan Herbal",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "antibiotik",
+    "title": "Resep Antibiotik JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Catatan Herbal",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "detox-liver",
+    "title": "Resep Detox Liver JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Detoks",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "jantung",
+    "title": "Resep Jantung JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Sirkulasi",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "autoimun",
+    "title": "Resep Autoimun JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Catatan Herbal",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "jantung-sehat",
+    "title": "Resep Jantung Sehat JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Sirkulasi",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "ultimate-jahe",
+    "title": "Resep Ultimate Jahe JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Catatan Herbal",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "anti-virus-kaya-enzim-dan-asam-amino",
+    "title": "Resep Anti Virus, Kaya Enzim dan Asam Amino JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Catatan Herbal",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "morning-detox-juice",
+    "title": "Resep Morning Detox Juice JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Detoks",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "chelation-therapy",
+    "title": "Resep Chelation Therapy JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Catatan Herbal",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "detox-canggih",
+    "title": "Resep Detox Canggih JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Detoks",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "herbs-drink-morning-juice",
+    "title": "Resep Herbs Drink Morning Juice JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Catatan Herbal",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "herbs-drink-untuk-wanita",
+    "title": "Resep Herbs Drink Untuk Wanita JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Catatan Herbal",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "herbs-drink-autoimun-infertility",
+    "title": "Resep Herbs Drink Autoimun Infertility JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Catatan Herbal",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "herbs-drink-untuk-masalah-paru-paru",
+    "title": "Resep Herbs Drink Untuk Masalah Paru-Paru JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Pernapasan",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "herbs-drink-untuk-gangguan-otak",
+    "title": "Resep Herbs Drink Untuk Gangguan Otak JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Catatan Herbal",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "juice-memperbaiki-hidrasi-ginjal",
+    "title": "Resep Juice Memperbaiki Hidrasi Ginjal JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Reproduksi",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "herbs-drink-untuk-hemmoroids-wasir-ambeien",
+    "title": "Resep Herbs Drink Untuk Hemmoroids / Wasir / Ambeien JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Reproduksi",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "juice-anti-kanker-anti-tumor-dan-pembersih-darah",
+    "title": "Resep Juice Anti Kanker, Anti Tumor dan Pembersih Darah JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Sirkulasi",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "juice-peningkat-fungsi-otak",
+    "title": "Resep Juice Peningkat Fungsi Otak JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Catatan Herbal",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "pencegah-kanker",
+    "title": "Resep Pencegah Kanker JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Proteksi Sel",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "anti-kanker",
+    "title": "Resep Anti Kanker JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Proteksi Sel",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "juice-detox-tinggi-antioksidan",
+    "title": "Resep Juice Detox Tinggi Antioksidan JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Detoks",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "kelapa-ultimate",
+    "title": "Resep Kelapa Ultimate JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Catatan Herbal",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "booster-asi-memperbanyak-asi",
+    "title": "Resep Booster ASI / Memperbanyak Asi JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Reproduksi",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "osteoporosis",
+    "title": "Resep Osteoporosis JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Catatan Herbal",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "minuman-prebiotik",
+    "title": "Resep Minuman Prebiotik JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Catatan Herbal",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "lemak-di-liver",
+    "title": "Resep Lemak Di Liver JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Detoks",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "diabetes-melitus-gula-darah-tinggi",
+    "title": "Resep Diabetes Melitus / Gula Darah Tinggi JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Sirkulasi",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "juice-mengatasi-hormon-wanita",
+    "title": "Resep Juice Mengatasi Hormon Wanita JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Reproduksi",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "juice-nutrisi-full",
+    "title": "Resep Juice Nutrisi Full JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Catatan Herbal",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "juice-pembersih-darah",
+    "title": "Resep Juice Pembersih Darah JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Sirkulasi",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "meningkatkan-stamina",
+    "title": "Resep Meningkatkan Stamina JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Catatan Herbal",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "menyerap-toksin-racun",
+    "title": "Resep Menyerap Toksin Racun JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Catatan Herbal",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "membuat-air-titrasi",
+    "title": "Resep Membuat Air Titrasi JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Reproduksi",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "meningkatkan-imunitas",
+    "title": "Resep Meningkatkan Imunitas JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Catatan Herbal",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "minuman-antiiflamasi",
+    "title": "Resep Minuman Antiiflamasi JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Reproduksi",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "infused-water-kurma-dan-jahe",
+    "title": "Resep Infused Water Kurma dan Jahe JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Catatan Herbal",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "infused-water-nanas",
+    "title": "Resep Infused Water Nanas JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Catatan Herbal",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "detox-water",
+    "title": "Resep Detox Water JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Detoks",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "tebu-murni-jahe",
+    "title": "Resep Tebu Murni Jahe JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Catatan Herbal",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "booster-asi-pelancar-asi",
+    "title": "Resep Booster Asi Pelancar Asi JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Reproduksi",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "detox-ginjal",
+    "title": "Resep Detox Ginjal JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Detoks",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "juice-antioksidan",
+    "title": "Resep Juice Antioksidan JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Catatan Herbal",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "juice-tempe-non-gmo",
+    "title": "Resep Juice Tempe NON GMO JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Catatan Herbal",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "juice-melancarkan-pencernaan",
+    "title": "Resep Juice Melancarkan Pencernaan JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Pencernaan",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "juice-pembersih-liver",
+    "title": "Resep Juice Pembersih Liver JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Detoks",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "menaikan-berat-badan",
+    "title": "Resep Menaikan Berat Badan JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Catatan Herbal",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "7-day-challenger-jsr",
+    "title": "Resep \" 7 DAY CHALLENGER JSR \" JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Catatan Herbal",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "menurunkan-berat-badan",
+    "title": "Resep Menurunkan Berat Badan JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Catatan Herbal",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "mengobati-asam-urat",
+    "title": "Resep Mengobati Asam Urat JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Catatan Herbal",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "mengobati-wasir",
+    "title": "Resep Mengobati Wasir JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Reproduksi",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "mengobati-stroke",
+    "title": "Resep Mengobati Stroke JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Catatan Herbal",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "berhenti-merokok",
+    "title": "Resep Berhenti Merokok JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Catatan Herbal",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "darah-rendah",
+    "title": "Resep Darah Rendah JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Sirkulasi",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "menaikan-hb",
+    "title": "Resep Menaikan HB JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Catatan Herbal",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "menormalkan-trigliserida",
+    "title": "Resep Menormalkan Trigliserida JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Catatan Herbal",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "mengobati-oligispermia-sperma-sedikit",
+    "title": "Resep Mengobati Oligispermia ( Sperma sedikit ) JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Catatan Herbal",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "mengobati-penyakit-liver",
+    "title": "Resep Mengobati Penyakit Liver JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Detoks",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "mengobati-penyakit-limfe",
+    "title": "Resep Mengobati Penyakit Limfe JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Catatan Herbal",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "membersihkan-liver",
+    "title": "Resep Membersihkan Liver JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Detoks",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "mengobati-penyakit-kolesterol",
+    "title": "Resep Mengobati Penyakit Kolesterol JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Sirkulasi",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "mengobati-penyakit-hepatitis",
+    "title": "Resep Mengobati Penyakit Hepatitis JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Catatan Herbal",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "mengobati-penyakit-diabetes",
+    "title": "Resep Mengobati Penyakit Diabetes JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Catatan Herbal",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "mengobati-penyakit-kolesterol-dan-degeneratif",
+    "title": "Resep Mengobati Penyakit Kolesterol dan Degeneratif JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Sirkulasi",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "mengobati-penyakit-gagal-ginjal",
+    "title": "Resep Mengobati Penyakit Gagal Ginjal JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Detoks",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "mengobati-penyakit-cerebal-palsy",
+    "title": "Resep Mengobati Penyakit Cerebal Palsy JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Catatan Herbal",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "mengobati-penyakit-sariawan",
+    "title": "Resep Mengobati Penyakit Sariawan JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Catatan Herbal",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "mengobati-penyakit-maag",
+    "title": "Resep Mengobati Penyakit Maag JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Pencernaan",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "solusi-anak-susah-makan",
+    "title": "Resep Solusi Anak Susah Makan JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Catatan Herbal",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "mengobati-penyakit-radang-mulut-rahim",
+    "title": "Resep Mengobati Penyakit Radang Mulut Rahim JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Catatan Herbal",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "mengobati-penyakit-tuba-palopi-tersumbat",
+    "title": "Resep Mengobati Penyakit Tuba Palopi Tersumbat JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Catatan Herbal",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "mengobati-penyakit-kanker-lambung-dan-kanker-usus",
+    "title": "Resep Mengobati Penyakit Kanker Lambung dan Kanker Usus JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Pencernaan",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "mengobati-penyakit-kista-miom-pcos-dan-endrometriosis",
+    "title": "Resep Mengobati Penyakit Kista, Miom, PCOS dan Endrometriosis JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Catatan Herbal",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "mengobati-penyakit-kista-endrometriosis-mioma-pcos-dan-masalah-hormonal-lainnya",
+    "title": "Resep Mengobati Penyakit Kista, Endrometriosis, Mioma, PCOS dan Masalah Hormonal Lainnya JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Catatan Herbal",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "mengobati-penyakit-serviks-dan-payudara",
+    "title": "Resep Mengobati Penyakit Serviks dan Payudara JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Catatan Herbal",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "pasca-kemoterapi",
+    "title": "Resep Pasca Kemoterapi JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Catatan Herbal",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "pasca-kemoterapi-bagian-2",
+    "title": "Resep Pasca Kemoterapi bagian 2 JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Catatan Herbal",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "program-hamil-promil",
+    "title": "Resep Program Hamil ( PROMIL ) JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Reproduksi",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "ketika-penyakit-maag-menyerang",
+    "title": "Resep Ketika Penyakit Maag Menyerang JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Pencernaan",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "untuk-sendi-dan-asam-urat",
+    "title": "Resep Untuk Sendi dan Asam Urat JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Catatan Herbal",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "mengobati-penyakit-mata-minus-dan-silinder",
+    "title": "Resep Mengobati Penyakit Mata Minus dan Silinder JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Catatan Herbal",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "meningkatkan-fungsi-pankreas",
+    "title": "Resep Meningkatkan Fungsi Pankreas JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Catatan Herbal",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "infusedwater-untuk-paru-paru-dan-masalah-pencernaan",
+    "title": "Resep Infusedwater Untuk Paru-Paru dan Masalah Pencernaan JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Pernapasan",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "mengobati-penyakit-benjolan-kelenjar-dan-tumor-payudara",
+    "title": "Resep Mengobati Penyakit Benjolan, Kelenjar dan Tumor Payudara JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Proteksi Sel",
+    "tags": ["JSR", "Herbal"]
+  },
+  {
+    "slug": "mengobati-masalah-pencernaan-usus-buntu-serta-radang-usus",
+    "title": "Resep Mengobati Masalah Pencernaan, Usus Buntu serta Radang Usus JSR Dr Zaidul Akbar",
+    "tagline": "Daftar resep diselaraskan dari referensi 147 kumpulan resep JSR.",
+    "focus": "Pencernaan",
+    "tags": ["JSR", "Herbal"]
   }
 ]

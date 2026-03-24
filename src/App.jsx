@@ -21,6 +21,28 @@ function loadBookmarks() {
     }
 }
 
+function buildFallbackDetail(item) {
+    return {
+        slug: item.slug,
+        title: item.title,
+        description: `${item.tagline} Konten lengkap belum ditambahkan ke file detail terpisah.`,
+        bahan: ["Detail bahan belum tersedia pada katalog massal."],
+        caraMembuat: [
+            "Buka sumber referensi untuk melihat langkah lengkap.",
+            "Jika diperlukan, tambahkan file JSON detail agar isi resep tampil lengkap.",
+        ],
+        manfaat: ["Catatan manfaat belum diisi untuk item ini."],
+    };
+}
+
+function parseJsonSafely(rawText) {
+    try {
+        return JSON.parse(rawText);
+    } catch {
+        return null;
+    }
+}
+
 function App() {
     const [catalogStatus, setCatalogStatus] = useState("loading");
     const [catalog, setCatalog] = useState([]);
@@ -39,11 +61,16 @@ function App() {
                     throw new Error("Daftar JSR gagal dimuat.");
                 }
 
-                return response.json();
+                return response.text();
             })
-            .then((data) => {
+            .then((rawText) => {
                 if (!mounted) {
                     return;
+                }
+
+                const data = parseJsonSafely(rawText);
+                if (!Array.isArray(data)) {
+                    throw new Error("Format katalog bukan JSON yang valid.");
                 }
 
                 setCatalog(data);
@@ -83,15 +110,32 @@ function App() {
 
         setDetailState({ status: "loading", data: null, error: "" });
 
+        const currentCatalogItem = catalog.find((item) => item.slug === activeSlug);
+
         fetch(`./data/jsr/${activeSlug}.json`, { signal: controller.signal })
             .then((response) => {
                 if (!response.ok) {
+                    if (response.status === 404 && currentCatalogItem) {
+                        return buildFallbackDetail(currentCatalogItem);
+                    }
+
                     throw new Error("Catatan JSR tidak ditemukan.");
                 }
 
-                return response.json();
+                return response.text();
             })
-            .then((data) => {
+            .then((payload) => {
+                const data = typeof payload === "string" ? parseJsonSafely(payload) : payload;
+
+                if (!data && currentCatalogItem) {
+                    setDetailState({ status: "success", data: buildFallbackDetail(currentCatalogItem), error: "" });
+                    return;
+                }
+
+                if (!data) {
+                    throw new Error("Format detail resep bukan JSON yang valid.");
+                }
+
                 setDetailState({ status: "success", data, error: "" });
             })
             .catch((error) => {
@@ -103,7 +147,7 @@ function App() {
             });
 
         return () => controller.abort();
-    }, [activeSlug]);
+    }, [activeSlug, catalog]);
 
     useEffect(() => {
         window.localStorage.setItem(STORAGE_KEY, JSON.stringify(bookmarks));
